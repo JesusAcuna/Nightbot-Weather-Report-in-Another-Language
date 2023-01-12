@@ -58,11 +58,11 @@ an account, so you can then edit your pastebins. After configuring it, click on 
 
 Example with the URL for a Spanish translation:
 
-> !commands add !clima $(eval w='$(weather $(query))'; $(urlfetch json https://pastebin.com/raw/8aye2z85))
+      !commands add !clima $(eval w='$(weather $(query))'; $(urlfetch json https://pastebin.com/raw/8aye2z85))
 
 7. (Optional) If you currently have that command activated, and want to edit it, type this command instead:
 
-> !commands edit !clima $(eval w='$(weather $(query))'; $(urlfetch json <URL>))
+      !commands edit !clima $(eval w='$(weather $(query))'; $(urlfetch json <URL>))
 
 8. And that's it, agter creating the command on twitch, the responses will be in Spanish or another language of your choice
 
