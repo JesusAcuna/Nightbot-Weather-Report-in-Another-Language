@@ -20,7 +20,7 @@ I'll make an example in Spanish for a command on Twitch, but you can do it in an
 
 <b>Follow these next steps below:</b>
 
-1. First we need to create a json URL to replace the english words to another, since the twitch chat is limited to 255 characters, and to do the translation we need more space.There's a web page, in which we can place the code to be able to make the translation, and make a request to obtain it.
+1. First we need to create a json URL to replace the English words to another, since the twitch chat is limited to 255 characters, and to do the translation we need more space.There's a web page, in which we can place the code to be able to make the translation, and make a request to obtain it.
 
 > https://pastebin.com/
 
@@ -28,6 +28,11 @@ I'll make an example in Spanish for a command on Twitch, but you can do it in an
   <img src="https://github.com/JesusAcuna/Nightbot-Weather-Report-in-Another-Language/blob/main/images/pastebin.png">
 </p>
 
-2. 
+2. In Optional Paste Settings, the most important option is paste expiration, since it is the time in which the code will expire. I recommend you to create
+an account, so you can then edit your pastebins.
+
+<p align="center">
+  <img src="https://github.com/JesusAcuna/Nightbot-Weather-Report-in-Another-Language/blob/main/images/pastebin_settings.png">
+</p>
   
   
