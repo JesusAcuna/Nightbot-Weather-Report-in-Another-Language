@@ -50,5 +50,32 @@ an account, so you can then edit your pastebins. After configuring it, click on 
   <img src="https://github.com/JesusAcuna/Nightbot-Weather-Report-in-Another-Language/blob/main/images/pastebin_raw.png">
 </p>
 
+5. You'll get a URL like this, but with a different code at the end, `https://pastebin.com/raw/8aye2z85`. If you want to make a Spanish translation you can use that URL. 
 
-  
+6. Then we need to make the command. As long as we are moderators or owners of the channel, type the code below in Twitch chat:
+
+> !commands add !clima $(eval w='$(weather $(query))'; $(urlfetch json <URL>))
+
+Example with the URL for a Spanish translation:
+
+> !commands add !clima $(eval w='$(weather $(query))'; $(urlfetch json https://pastebin.com/raw/8aye2z85))
+
+7. (Optional) If you currently have that command activated, and want to edit it, type this command instead:
+
+> !commands edit !clima $(eval w='$(weather $(query))'; $(urlfetch json <URL>))
+
+8. And that's it, agter creating the command on twitch, the responses will be in Spanish or another language of your choice
+
+<p align="center">
+  <img src="https://github.com/JesusAcuna/Nightbot-Weather-Report-in-Another-Language/blob/main/images/spanish_output.png">
+</p>
+
+
+
+
+
+
+
+
+
+
