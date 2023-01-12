@@ -54,7 +54,7 @@ an account, so you can then edit your pastebins. After configuring it, click on 
 
 6. Then we need to make the command. As long as we are moderators or owners of the channel, type the code below in Twitch chat:
 
-      !commands add !clima $(eval w='$(weather $(query))'; $(urlfetch json <URL>))
+       !commands add !clima $(eval w='$(weather $(query))'; $(urlfetch json <URL>))
 
 Example with the URL for a Spanish translation:
 
@@ -62,7 +62,7 @@ Example with the URL for a Spanish translation:
 
 7. (Optional) If you currently have that command activated, and want to edit it, type this command instead:
 
-      !commands edit !clima $(eval w='$(weather $(query))'; $(urlfetch json <URL>))
+       !commands edit !clima $(eval w='$(weather $(query))'; $(urlfetch json <URL>))
   
 <p align="center">
   <img src="https://github.com/JesusAcuna/Nightbot-Weather-Report-in-Another-Language/blob/main/images/command_twitch.png">
