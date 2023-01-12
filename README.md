@@ -44,5 +44,11 @@ an account, so you can then edit your pastebins. After configuring it, click on 
   <img src="https://github.com/JesusAcuna/Nightbot-Weather-Report-in-Another-Language/blob/main/images/pastebin_settings.png">
 </p>
   
-4. 
+4. After creating the pastebin, you click on raw to get the url that will help us to make the requests
+
+<p align="center">
+  <img src="https://github.com/JesusAcuna/Nightbot-Weather-Report-in-Another-Language/blob/main/images/pastebin_raw.png">
+</p>
+
+
   
